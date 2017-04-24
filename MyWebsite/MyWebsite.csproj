@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Authors>John Wu</Authors>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
+    <Copyright>Copyright © 2017 John Wu</Copyright>
+    <Description>This is example for ASP.NET Core from blog.johnwu.cc</Description>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\app\app.component.html" />
+    <Content Include="wwwroot\app\app.component.ts" />
+    <Content Include="wwwroot\app\main.ts" />
+    <Content Include="wwwroot\favicon.ico" />
+    <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\systemjs.config.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+  </ItemGroup>
+</Project>
