@@ -11,12 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="webpack.config.js" />
     <Content Include="wwwroot\app\app.component.html" />
     <Content Include="wwwroot\app\app.component.ts" />
+    <Content Include="wwwroot\app\bundle-vendors.ts" />
+    <Content Include="wwwroot\app\bundle.ts" />
     <Content Include="wwwroot\app\main.ts" />
     <Content Include="wwwroot\favicon.ico" />
     <Content Include="wwwroot\index.html" />
-    <Content Include="wwwroot\systemjs.config.js" />
   </ItemGroup>
 
   <ItemGroup>
