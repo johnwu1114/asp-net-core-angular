@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
     template: require("./app.component.html")
 })
 export class AppComponent {
-    name = "Angular 4";
+    title = "Angular 4";
 }
